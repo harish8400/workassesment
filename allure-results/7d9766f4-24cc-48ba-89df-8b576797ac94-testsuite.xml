@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613548038387' stop='1613548143228'>
+    <name>Register,login and check-out the product</name>
+    <title>Register,login and check-out the product</title>
+    <test-cases>
+        <test-case start='1613548038413' status='passed' stop='1613548143210'>
+            <name>As a user, I can open automation webpage</name>
+            <title>As a user, I can open automation webpage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1613548038420' status='passed' stop='1613548054281'>
+                    <name>I am on the automation practice webpage</name>
+                    <title>I am on the automation practice webpage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548054282' status='passed' stop='1613548059612'>
+                    <name>I should see and click on the Sign button</name>
+                    <title>I should see and click on the Sign button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548059613' status='passed' stop='1613548062773'>
+                    <name>I can create account by entering emailid</name>
+                    <title>I can create account by entering emailid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548062773' status='passed' stop='1613548087385'>
+                    <name>Enter personal information and should click on Register button</name>
+                    <title>Enter personal information and should click on Register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548087385' status='passed' stop='1613548093050'>
+                    <name>Validate Landing page</name>
+                    <title>Validate Landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548093050' status='passed' stop='1613548114502'>
+                    <name>Add product to cart and Proceed to checkout</name>
+                    <title>Add product to cart and Proceed to checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613548114502' status='passed' stop='1613548143196'>
+                    <name>Validate the product on Payment page</name>
+                    <title>Validate the product on Payment page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
